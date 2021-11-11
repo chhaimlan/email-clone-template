@@ -1,0 +1,21 @@
+.sent{
+    flex: 1;
+    overflow: scroll;
+}
+.sent::-webkit-scrollbar{
+    display: none;
+}
+.sent{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+.sent-setting{
+    position:sticky;
+    top: 0;    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}

@@ -1,0 +1,52 @@
+
+.promotion{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+.promotion:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2 rgba(0, 0, 0,0.25);
+}
+.promotion-option{
+    display: flex;   
+}
+.promotion-message{
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    font-size: 13px;
+}
+.promotion-message > h4{
+    display: flex;
+   width: 400px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.promotion-title{
+  font-size: 13px;
+  flex: 0.3;
+}
+.promotion-time{
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.promotion-description{
+    font-weight: 400;
+    color: gray;
+}
+/* .promotion-description > .MuiSvgIcon-root{
+   color: red;
+} */
+
+.promotion-description > IconButton{
+    display: none;
+}

@@ -1,0 +1,21 @@
+.starred{
+    flex: 1;
+    overflow: scroll;
+}
+.starred::-webkit-scrollbar{
+    display: none;
+}
+.starred{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+.starred-setting{
+    position:sticky;
+    top: 0;    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}

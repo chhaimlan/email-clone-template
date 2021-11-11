@@ -1,0 +1,21 @@
+.snoozed{
+    flex: 1;
+    overflow: scroll;
+}
+.snoozed::-webkit-scrollbar{
+    display: none;
+}
+.snoozed{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+.snoozed-setting{
+    position:sticky;
+    top: 0;    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}

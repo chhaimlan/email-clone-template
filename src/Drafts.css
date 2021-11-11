@@ -1,0 +1,21 @@
+.drafts{
+    flex: 1;
+    overflow: scroll;
+}
+.drafts::-webkit-scrollbar{
+    display: none;
+}
+.drafts{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+.drafts-setting{
+    position:sticky;
+    top: 0;    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}
